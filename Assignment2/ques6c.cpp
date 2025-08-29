@@ -87,7 +87,8 @@ for (int i = 0; i < rowsA; ++i) {
     }
 }
 
-spC[0][2] = kC - 1;                    
+spC[0][2] = kC - 1;                     // non zero count
+
 // print C in triplet form
 cout << "\nC = A x B (triplet):\n";
 for (int t = 0; t <= spC[0][2]; ++t)

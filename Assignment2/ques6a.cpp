@@ -35,7 +35,7 @@ int main() {
     tsp[0][2]=sp[0][2];
     
     int k=1;
-    for(int j=0;j<3;j++){
+    for(int j=0;j<sp[0][1];j++){
         for(int i=1;i<=size;i++){
             if(sp[i][1]==j){
                 tsp[k][0]=sp[i][1];

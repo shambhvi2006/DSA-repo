@@ -20,7 +20,7 @@ int main() {
         cout << "\n";
     }
 
-    // ---- build triplets (optional – you already had this) ----
+    
     int sizeA = 0, sizeB = 0;
     for (int i = 0; i < m; ++i)
         for (int j = 0; j < n; ++j)
